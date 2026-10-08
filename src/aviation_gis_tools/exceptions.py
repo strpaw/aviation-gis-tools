@@ -15,3 +15,11 @@ class InvalidNumberError(AviationGisError):
 
 class NonPositiveNumberError(InvalidNumberError):
     """Raised when a number is not greater than zero."""
+
+
+class VincentyConvergenceError(AviationGisError):
+    """Raised when Vincenty's iterative solution does not converge."""
+
+
+class UnsupportedEllipsoidError(AviationGisError):
+    """Raised when ellipsoid used for calculation is not supported."""
