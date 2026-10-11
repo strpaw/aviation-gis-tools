@@ -23,3 +23,7 @@ class VincentyConvergenceError(AviationGisError):
 
 class UnsupportedEllipsoidError(AviationGisError):
     """Raised when ellipsoid used for calculation is not supported."""
+
+
+class InvalidARINC424FormatError(AviationGisError):
+    """Raised when coordinate code is not valid ARINC 424 full degrees code"""
