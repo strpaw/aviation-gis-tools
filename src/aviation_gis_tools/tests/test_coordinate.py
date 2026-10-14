@@ -1,5 +1,5 @@
 import unittest
-from aviation_gis_tools.coordinate import *
+from src.aviation_gis_tools.coordinate import *
 
 
 class CoordinateTests(unittest.TestCase):

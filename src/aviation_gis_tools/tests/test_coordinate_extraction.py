@@ -1,5 +1,5 @@
 import unittest
-from aviation_gis_tools.coordinate_extraction import *
+from src.aviation_gis_tools.coordinate_extraction import *
 
 
 class CoordinatePairExtractionTests(unittest.TestCase):
